@@ -8,16 +8,16 @@ import AdditionalFeatures from './components/AdditionalFeatures';
 import Total from './components/Total';
 
 const buyItem = item => {
+  console.log('this is item', item);
   return {
     type: 'ADD_FEATURE',
     payload: item
   }
 };
 
-const removeFeature = item => {
+const removeFeature = () => {
   return {
     type: 'REMOVE_FEATURE',
-    payload: item
   }
 };
 
