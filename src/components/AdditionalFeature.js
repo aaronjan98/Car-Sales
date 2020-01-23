@@ -1,7 +1,7 @@
 import React from 'react';
 
 const AdditionalFeature = props => {
-  console.log('props from addFeature.js', props.feature);
+
   return (
     <li>
       {/* Add an onClick that will let you add a feature to your car */}
